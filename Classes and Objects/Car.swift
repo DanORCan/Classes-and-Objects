@@ -35,5 +35,9 @@ class Car {
         colour = customerChosenColour
     }
     
+    func drive() {
+        print("car moves")
+    }
+    
     
 }
