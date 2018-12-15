@@ -22,4 +22,8 @@ class Car {
     var numberOfSeats = 5
     var typeOfCar :  CarType = .Coupe
     
+    init(customerChosenColour : String) {
+        colour = customerChosenColour
+    }
+    
 }
