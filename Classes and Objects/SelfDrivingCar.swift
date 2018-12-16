@@ -9,6 +9,6 @@
 import Foundation
 
 
-class SelfDrivingCar {
+class SelfDrivingCar : Car {       //this makes SelfDrivingCar inherit all properties of Car
     
 }
