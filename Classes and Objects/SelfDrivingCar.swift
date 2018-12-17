@@ -10,5 +10,14 @@ import Foundation
 
 
 class SelfDrivingCar : Car {       //this makes SelfDrivingCar inherit all properties of Car
+  
+    var destination : String = "1 Infinite Loop"
     
+    override func drive() {
+        super.drive()
+        
+        print("drive towards " + destination)
+        
+    }
+
 }
